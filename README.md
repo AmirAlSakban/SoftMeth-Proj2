@@ -108,22 +108,6 @@ src/
 - Test response status codes and response bodies
 - Cover both success and error scenarios
 
-## Credits
-
-Based on a Spring Boot tutorial by BezKoder with significant modifications to implement a proper service layer and comprehensive tests.
-
-Deployment:
-> [Deploy Spring Boot App on AWS – Elastic Beanstalk](https://bezkoder.com/deploy-spring-boot-aws-eb/)
-
-> [Docker Compose Spring Boot and MySQL example](https://www.bezkoder.com/docker-compose-spring-boot-mysql/)
-
-Fullstack:
-> [Integrate Angular with Spring Boot Rest API](https://www.bezkoder.com/integrate-angular-spring-boot/)
-
-> [Integrate React with Spring Boot Rest API](https://www.bezkoder.com/integrate-reactjs-spring-boot/)
-
-> [Integrate Vue with Spring Boot Rest API](https://www.bezkoder.com/integrate-vue-spring-boot/)
-
 ## Run Spring Boot application
 ```
 mvn test -Dtest=TutorialControllerTests

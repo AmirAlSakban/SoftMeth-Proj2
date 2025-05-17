@@ -8,11 +8,11 @@
 		<version>3.1.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bezkoder</groupId>
-	<artifactId>spring-boot-rest-controller-unit-test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-rest-controller-unit-test</name>
-	<description>Spring Boot test Rest Controller with @WebMvcTest</description>
+	<groupId>com.amiral</groupId>
+	<artifactId>tutorial-management-system</artifactId>
+	<version>1.0.0</version>
+	<name>Tutorial Management System</name>
+	<description>A Spring Boot application for managing tutorials.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
