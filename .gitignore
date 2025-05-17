@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+logs/
+
+### Application Properties with sensitive data ###
+*-local.properties
+*-local.yml
+
+### Temporary diagram files ###
+*_fixed.puml

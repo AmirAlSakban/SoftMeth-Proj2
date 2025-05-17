@@ -71,7 +71,7 @@ Access the H2 in-memory database console at:
 src/
 ├── main/
 │   ├── java/
-│   │   └── com/bezkoder/spring/test/
+│   │   └── com/amiral/spring/tutorial/
 │   │       ├── controller/
 │   │       │   └── TutorialController.java
 │   │       ├── model/
@@ -81,16 +81,16 @@ src/
 │   │       ├── service/
 │   │       │   ├── TutorialService.java
 │   │       │   └── TutorialServiceImpl.java
-│   │       └── SpringBootRestControllerUnitTestApplication.java
+│   │       └── TutorialManagementApplication.java
 │   └── resources/
 │       └── application.properties
 ├── test/
 │   └── java/
-│       └── com/bezkoder/spring/test/
+│       └── com/amiral/spring/tutorial/
 │           ├── service/
 │           │   └── TutorialServiceTests.java
 │           ├── TutorialControllerTests.java
-│           └── SpringBootRestControllerUnitTestApplicationTests.java
+│           └── TutorialManagementApplicationTests.java
 └── .run/
     ├── application.run.json
     └── tests.run.json
@@ -110,6 +110,6 @@ src/
 
 ## Run Spring Boot application
 ```
-mvn test -Dtest=TutorialControllerTests
+mvn spring-boot:run
 ```
 
